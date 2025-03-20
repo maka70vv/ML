@@ -37,7 +37,7 @@ for row in rows:
 
             # Поиск источника (если есть)
             source_tag = row.find("textarea")
-            source = source_tag.text.strip() if source_tag else "Неизвестно"
+            source = source_tag.text.strip() if source_tag else "None"
 
             # Временная категория (можно улучшить)
             category = "Analytics"
